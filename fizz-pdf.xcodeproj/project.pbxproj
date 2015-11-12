@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768012B51BB708DC0050DBDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768012B41BB708DC0050DBDC /* main.m */; };
+		768012B81BB708DC0050DBDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768012B71BB708DC0050DBDC /* AppDelegate.m */; };
+		768012BB1BB708DC0050DBDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768012BA1BB708DC0050DBDC /* ViewController.m */; };
+		768012BE1BB708DC0050DBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768012BC1BB708DC0050DBDC /* Main.storyboard */; };
+		768012C31BB708DC0050DBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768012C11BB708DC0050DBDC /* LaunchScreen.storyboard */; };
+		76B60F731BB75101005B4AC4 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B60F721BB75101005B4AC4 /* LOGO.png */; };
+		E007F25B1BF247040042F2CF /* fuzzThis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E007F25A1BF247040042F2CF /* fuzzThis.pdf */; };
+		E007F25D1BF3090A0042F2CF /* fuzzThis1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E007F25C1BF3090A0042F2CF /* fuzzThis1.pdf */; };
+		E007F25F1BF312C10042F2CF /* fuzzThis.tif in Resources */ = {isa = PBXBuildFile; fileRef = E007F25E1BF312C10042F2CF /* fuzzThis.tif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		768012B01BB708DC0050DBDC /* fizz-pdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fizz-pdf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		768012B41BB708DC0050DBDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		768012B61BB708DC0050DBDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		768012B71BB708DC0050DBDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		768012B91BB708DC0050DBDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		768012BA1BB708DC0050DBDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		768012BD1BB708DC0050DBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768012C21BB708DC0050DBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768012C41BB708DC0050DBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B60F721BB75101005B4AC4 /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
+		E007F25A1BF247040042F2CF /* fuzzThis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fuzzThis.pdf; sourceTree = "<group>"; };
+		E007F25C1BF3090A0042F2CF /* fuzzThis1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fuzzThis1.pdf; sourceTree = "<group>"; };
+		E007F25E1BF312C10042F2CF /* fuzzThis.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fuzzThis.tif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768012AD1BB708DC0050DBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768012A71BB708DC0050DBDC = {
+			isa = PBXGroup;
+			children = (
+				768012B21BB708DC0050DBDC /* fizz */,
+				768012B11BB708DC0050DBDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768012B11BB708DC0050DBDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768012B01BB708DC0050DBDC /* fizz-pdf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768012B21BB708DC0050DBDC /* fizz */ = {
+			isa = PBXGroup;
+			children = (
+				E007F25E1BF312C10042F2CF /* fuzzThis.tif */,
+				E007F25C1BF3090A0042F2CF /* fuzzThis1.pdf */,
+				E007F25A1BF247040042F2CF /* fuzzThis.pdf */,
+				76B60F721BB75101005B4AC4 /* LOGO.png */,
+				768012B61BB708DC0050DBDC /* AppDelegate.h */,
+				768012B71BB708DC0050DBDC /* AppDelegate.m */,
+				768012B91BB708DC0050DBDC /* ViewController.h */,
+				768012BA1BB708DC0050DBDC /* ViewController.m */,
+				768012BC1BB708DC0050DBDC /* Main.storyboard */,
+				768012C11BB708DC0050DBDC /* LaunchScreen.storyboard */,
+				768012C41BB708DC0050DBDC /* Info.plist */,
+				768012B31BB708DC0050DBDC /* Supporting Files */,
+			);
+			path = fizz;
+			sourceTree = "<group>";
+		};
+		768012B31BB708DC0050DBDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768012B41BB708DC0050DBDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768012AF1BB708DC0050DBDC /* fizz-pdf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768012C71BB708DC0050DBDC /* Build configuration list for PBXNativeTarget "fizz-pdf" */;
+			buildPhases = (
+				768012AC1BB708DC0050DBDC /* Sources */,
+				768012AD1BB708DC0050DBDC /* Frameworks */,
+				768012AE1BB708DC0050DBDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fizz-pdf";
+			productName = fizz;
+			productReference = 768012B01BB708DC0050DBDC /* fizz-pdf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768012A81BB708DC0050DBDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = nanidayo;
+				TargetAttributes = {
+					768012AF1BB708DC0050DBDC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2RGVR9WDBX;
+					};
+				};
+			};
+			buildConfigurationList = 768012AB1BB708DC0050DBDC /* Build configuration list for PBXProject "fizz-pdf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768012A71BB708DC0050DBDC;
+			productRefGroup = 768012B11BB708DC0050DBDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768012AF1BB708DC0050DBDC /* fizz-pdf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768012AE1BB708DC0050DBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E007F25D1BF3090A0042F2CF /* fuzzThis1.pdf in Resources */,
+				76B60F731BB75101005B4AC4 /* LOGO.png in Resources */,
+				E007F25F1BF312C10042F2CF /* fuzzThis.tif in Resources */,
+				768012C31BB708DC0050DBDC /* LaunchScreen.storyboard in Resources */,
+				768012BE1BB708DC0050DBDC /* Main.storyboard in Resources */,
+				E007F25B1BF247040042F2CF /* fuzzThis.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768012AC1BB708DC0050DBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768012BB1BB708DC0050DBDC /* ViewController.m in Sources */,
+				768012B81BB708DC0050DBDC /* AppDelegate.m in Sources */,
+				768012B51BB708DC0050DBDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		768012BC1BB708DC0050DBDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768012BD1BB708DC0050DBDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768012C11BB708DC0050DBDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768012C21BB708DC0050DBDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768012C51BB708DC0050DBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		768012C61BB708DC0050DBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768012C81BB708DC0050DBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = fizz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoChen.fizz.ios.pdf;
+				PRODUCT_NAME = "fizz-pdf";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		768012C91BB708DC0050DBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = fizz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoChen.fizz.ios.pdf;
+				PRODUCT_NAME = "fizz-pdf";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768012AB1BB708DC0050DBDC /* Build configuration list for PBXProject "fizz-pdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768012C51BB708DC0050DBDC /* Debug */,
+				768012C61BB708DC0050DBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768012C71BB708DC0050DBDC /* Build configuration list for PBXNativeTarget "fizz-pdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768012C81BB708DC0050DBDC /* Debug */,
+				768012C91BB708DC0050DBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768012A81BB708DC0050DBDC /* Project object */;
+}
